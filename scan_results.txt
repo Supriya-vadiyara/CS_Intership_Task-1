@@ -1,0 +1,29 @@
+# Nmap 7.97 scan initiated Mon Aug  4 14:40:43 2025 as: nmap -sS -oN scan_results.txt -oX C:\\Users\\ADMINE\\AppData\\Local\\Temp\\zenmap-2bqos9y4.xml 10.70.139.0/24
+Nmap scan report for 10.70.139.110
+Host is up (0.021s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: A2:75:19:09:CE:67 (Unknown)
+
+Nmap scan report for 10.70.139.195
+Host is up (0.031s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+111/tcp  open  rpcbind
+3389/tcp open  ms-wbt-server
+MAC Address: 50:C2:E8:C9:9F:61 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 10.70.139.197
+Host is up (0.0011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+903/tcp  open  iss-console-mgr
+5357/tcp open  wsdapi
+
+# Nmap done at Mon Aug  4 14:41:52 2025 -- 256 IP addresses (3 hosts up) scanned in 68.96 seconds
